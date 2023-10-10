@@ -37,3 +37,15 @@ else:
     print("incorrect")
     lives -=1
     print(f"You have {lives} lives")
+print("Question 4. What term describes winding someone up online?")
+print("1. Posting")
+print("2. Trolling")
+print("3. Phishing")
+answer = input()
+if answer == "2":
+    print("Correct")
+    print(f"You have {lives} lives")
+else:
+    print("incorrect")
+    lives -=1
+    print(f"You have {lives} lives")
