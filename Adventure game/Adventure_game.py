@@ -90,7 +90,7 @@ if lives >0:
         print("incorrect")
         lives -=1
         print(f"You have {lives} lives")
-if lives <0:
+if lives >0:
     print("Well done you have completed the quiz")
 else:
     print("you have ran out of lives, try again")
