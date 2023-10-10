@@ -1,2 +1,17 @@
 lives = 3
-print("You have just got off the train, ")
+print(f"You have {lives} lives")
+print("Hello and welcome to this E-Safety quiz.")
+print("Question 1. What one of these is a form of personal information?")
+print("1. Date of birth")
+print("2. Gender")
+print("3. Online usernames")
+answer = input()
+if answer == "1":
+    print("Correct")
+    print(f"You have {lives} lives")
+else:
+    print("incorrect")
+    lives -=1
+    print(f"You have {lives} lives")
+
+
