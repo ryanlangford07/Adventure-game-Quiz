@@ -25,4 +25,15 @@ else:
     print("incorrect")
     lives -=1
     print(f"You have {lives} lives")
-
+print("Question 3. What can someone do if they steal your identity")
+print("1. Earn lots of money and leave it in your bank account")
+print("2. Try to give you all the credit for their hard work")
+print("3. Try access your bank and set up a loan in your name")
+answer = input()
+if answer == "3":
+    print("Correct")
+    print(f"You have {lives} lives")
+else:
+    print("incorrect")
+    lives -=1
+    print(f"You have {lives} lives")
