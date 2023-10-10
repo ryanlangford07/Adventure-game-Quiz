@@ -13,5 +13,16 @@ else:
     print("incorrect")
     lives -=1
     print(f"You have {lives} lives")
-
+print("Question 2. What can you do to get less email spam?")
+print("1. Always tick dont send updates")
+print("2. Change your email address every six months")
+print("3. Never use your email adress")
+answer = input()
+if answer == "1":
+    print("Correct")
+    print(f"You have {lives} lives")
+else:
+    print("incorrect")
+    lives -=1
+    print(f"You have {lives} lives")
 
