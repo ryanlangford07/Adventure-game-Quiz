@@ -49,3 +49,15 @@ else:
     print("incorrect")
     lives -=1
     print(f"You have {lives} lives")
+print("Question 5. What software can you use to avoid getting a virus?")
+print("1. Disk clean up software")
+print("2. Firewall software")
+print("3. Anti-virus Software")
+answer = input()
+if answer == "3":
+    print("Correct")
+    print(f"You have {lives} lives")
+else:
+    print("incorrect")
+    lives -=1
+    print(f"You have {lives} lives")
