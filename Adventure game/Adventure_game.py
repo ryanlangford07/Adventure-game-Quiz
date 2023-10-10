@@ -25,63 +25,68 @@ else:
     print("incorrect")
     lives -=1
     print(f"You have {lives} lives")
-print("Question 3. What can someone do if they steal your identity")
-print("1. Earn lots of money and leave it in your bank account")
-print("2. Try to give you all the credit for their hard work")
-print("3. Try access your bank and set up a loan in your name")
-answer = input()
-if answer == "3":
-    print("Correct")
-    print(f"You have {lives} lives")
-else:
-    print("incorrect")
-    lives -=1
-    print(f"You have {lives} lives")
-print("Question 4. What term describes winding someone up online?")
-print("1. Posting")
-print("2. Trolling")
-print("3. Phishing")
-answer = input()
-if answer == "2":
-    print("Correct")
-    print(f"You have {lives} lives")
-else:
-    print("incorrect")
-    lives -=1
-    print(f"You have {lives} lives")
-print("Question 5. What software can you use to avoid getting a virus?")
-print("1. Disk clean up software")
-print("2. Firewall software")
-print("3. Anti-virus Software")
-answer = input()
-if answer == "3":
-    print("Correct")
-    print(f"You have {lives} lives")
-else:
-    print("incorrect")
-    lives -=1
-    print(f"You have {lives} lives")
-print("Question 6. What name would you give to an email attachment that may harm your computer??")
-print("1. Phishing")
-print("2. Spam")
-print("3. Malware")
-answer = input()
-if answer == "3":
-    print("Correct")
-    print(f"You have {lives} lives")
-else:
-    print("incorrect")
-    lives -=1
-    print(f"You have {lives} lives")
-print("Question 7. Why should you be carefuk when using file sharing sites?")
-print("1. You might be downloading malware")
-print("2. The person sharing the file can see your name and address")
-print("3. The person sharing the file will send you a bill")
-answer = input()
-if answer == "2":
-    print("Correct")
-    print(f"You have {lives} lives")
-else:
-    print("incorrect")
-    lives -=1
-    print(f"You have {lives} lives")
+if lives >0:
+    print("Question 3. What can someone do if they steal your identity")
+    print("1. Earn lots of money and leave it in your bank account")
+    print("2. Try to give you all the credit for their hard work")
+    print("3. Try access your bank and set up a loan in your name")
+    answer = input()
+    if answer == "3":
+        print("Correct")
+        print(f"You have {lives} lives")
+    else:
+        print("incorrect")
+        lives -=1
+        print(f"You have {lives} lives")
+if lives >0:
+    print("Question 4. What term describes winding someone up online?")
+    print("1. Posting")
+    print("2. Trolling")
+    print("3. Phishing")
+    answer = input()
+    if answer == "2":
+        print("Correct")
+        print(f"You have {lives} lives")
+    else:
+        print("incorrect")
+        lives -=1
+        print(f"You have {lives} lives")
+if lives >0:
+    print("Question 5. What software can you use to avoid getting a virus?")
+    print("1. Disk clean up software")
+    print("2. Firewall software")
+    print("3. Anti-virus Software")
+    answer = input()
+    if answer == "3":
+        print("Correct")
+        print(f"You have {lives} lives")
+    else:
+        print("incorrect")
+        lives -=1
+        print(f"You have {lives} lives")
+if lives >0:
+    print("Question 6. What name would you give to an email attachment that may harm your computer??")
+    print("1. Phishing")
+    print("2. Spam")
+    print("3. Malware")
+    answer = input()
+    if answer == "3":
+        print("Correct")
+        print(f"You have {lives} lives")
+    else:
+        print("incorrect")
+        lives -=1
+        print(f"You have {lives} lives")
+if lives >0:
+    print("Question 7. Why should you be carefuk when using file sharing sites?")
+    print("1. You might be downloading malware")
+    print("2. The person sharing the file can see your name and address")
+    print("3. The person sharing the file will send you a bill")
+    answer = input()
+    if answer == "2":
+        print("Correct")
+        print(f"You have {lives} lives")
+    else:
+        print("incorrect")
+        lives -=1
+        print(f"You have {lives} lives")
