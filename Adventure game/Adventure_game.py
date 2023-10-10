@@ -73,3 +73,15 @@ else:
     print("incorrect")
     lives -=1
     print(f"You have {lives} lives")
+print("Question 7. Why should you be carefuk when using file sharing sites?")
+print("1. You might be downloading malware")
+print("2. The person sharing the file can see your name and address")
+print("3. The person sharing the file will send you a bill")
+answer = input()
+if answer == "2":
+    print("Correct")
+    print(f"You have {lives} lives")
+else:
+    print("incorrect")
+    lives -=1
+    print(f"You have {lives} lives")
