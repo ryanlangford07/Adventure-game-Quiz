@@ -61,3 +61,15 @@ else:
     print("incorrect")
     lives -=1
     print(f"You have {lives} lives")
+print("Question 6. What name would you give to an email attachment that may harm your computer??")
+print("1. Phishing")
+print("2. Spam")
+print("3. Malware")
+answer = input()
+if answer == "3":
+    print("Correct")
+    print(f"You have {lives} lives")
+else:
+    print("incorrect")
+    lives -=1
+    print(f"You have {lives} lives")
